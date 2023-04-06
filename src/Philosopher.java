@@ -51,6 +51,17 @@ public class Philosopher extends BaseThread
 	 */
 	public void think()
 	{
+		try{
+			System.out.println("Philosopher " + getTID() + " started thinking!");
+			Thread.yield();
+			sleep((long)(Math.random()* TIME_TO_WASTE));
+			Thread.yield();
+			System.out.println("Philosopher " + getTID() + " finished thinking!");
+		} catch (InterruptedException e){
+			System.err.println("Philosopher.think():");
+			DiningPhilosophers.reportException(e);
+			System.exit(1);
+		}
 		// ...
 	}
 
