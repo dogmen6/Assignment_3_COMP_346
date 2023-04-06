@@ -25,9 +25,13 @@ public class Philosopher extends BaseThread
 	{
 		try
 		{
+			System.out.println("Philosopher " + getTID() + " started eating!");
+			Thread.yield();
 			// ...
 			sleep((long)(Math.random() * TIME_TO_WASTE));
 			// ...
+			Thread.yield();
+			System.out.println("Philosopher " + getTID() + " finished eating!");
 		}
 		catch(InterruptedException e)
 		{
