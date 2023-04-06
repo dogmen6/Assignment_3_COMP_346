@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6720a54f-44d2-460b-a0f1-19412f06ef7f" name="Changes" comment="Delete one of the Main() classes and added Thread.yield() in Philosopher.java">
+    <list default="true" id="6720a54f-44d2-460b-a0f1-19412f06ef7f" name="Changes" comment="Updated the talk() method.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Philosopher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Philosopher.java" afterDir="false" />
     </list>
@@ -54,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680642648019</updated>
-      <workItem from="1680805563194" duration="1744000" />
+      <workItem from="1680805563194" duration="2343000" />
     </task>
     <task id="LOCAL-00001" summary="Upload soft copy of the codes.">
       <created>1680806484685</created>
@@ -70,7 +70,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680806646393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated the eat() method.">
+      <created>1680811308023</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680811308023</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Updated the think() method.">
+      <created>1680811568994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680811568994</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated the talk() method.">
+      <created>1680811641016</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680811641016</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -90,6 +111,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upload soft copy of the codes." />
     <MESSAGE value="Delete one of the Main() classes and added Thread.yield() in Philosopher.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete one of the Main() classes and added Thread.yield() in Philosopher.java" />
+    <MESSAGE value="Updated the eat() method." />
+    <MESSAGE value="Updated the think() method." />
+    <MESSAGE value="Updated the talk() method." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the talk() method." />
   </component>
 </project>
