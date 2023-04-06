@@ -76,8 +76,11 @@ public class Philosopher extends BaseThread
 	public void talk()
 	{
 		// ...
-
+		System.out.println("Philosopher " + getTID() + " started talking!");
+		Thread.yield();
 		saySomething();
+		Thread.yield();
+		System.out.println("Philosopher " + getTID() + "finished talking!");
 
 		// ...
 	}
