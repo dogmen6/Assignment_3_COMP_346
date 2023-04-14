@@ -27,7 +27,7 @@ public class BaseThread extends Thread
 	/**
 	 * Preserves value across all instances
 	 */
-	public static int siNextTID = 0;
+	public static int siNextTID = 1;
 
 	/**
 	 * Our Thread ID
