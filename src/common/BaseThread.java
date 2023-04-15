@@ -99,13 +99,13 @@ public class BaseThread extends Thread
 		System.out.println(this.getClass().getName() + " thread [TID=" + this.iTID + "] starts PHASE I.");
 
 		System.out.println
-		(
-			"Some stats info in the PHASE I:\n" +
-			"    iTID = " + this.iTID +
-			", siNextTID = " + siNextTID +
-			", siTurn = " + siTurn +
-			".\n    Their \"checksum\": " + (siNextTID * 100 + this.iTID * 10 + siTurn)
-		);
+				(
+						"Some stats info in the PHASE I:\n" +
+								"    iTID = " + this.iTID +
+								", siNextTID = " + siNextTID +
+								", siTurn = " + siTurn +
+								".\n    Their \"checksum\": " + (siNextTID * 100 + this.iTID * 10 + siTurn)
+				);
 
 		System.out.println(this.getClass().getName() + " thread [TID=" + this.iTID + "] finishes PHASE I.");
 	}
@@ -119,13 +119,13 @@ public class BaseThread extends Thread
 		System.out.println(this.getClass().getName() + " thread [TID=" + this.iTID + "] starts PHASE II.");
 
 		System.out.println
-		(
-			"Some stats info in the PHASE II:\n" +
-			"    iTID = " + this.iTID +
-			", siNextTID = " + siNextTID +
-			", siTurn = " + siTurn +
-			".\n    Their \"checksum\": " + (siNextTID * 100 + this.iTID * 10 + siTurn)
-		);
+				(
+						"Some stats info in the PHASE II:\n" +
+								"    iTID = " + this.iTID +
+								", siNextTID = " + siNextTID +
+								", siTurn = " + siTurn +
+								".\n    Their \"checksum\": " + (siNextTID * 100 + this.iTID * 10 + siTurn)
+				);
 
 		System.out.println(this.getClass().getName() + " thread [TID=" + this.iTID + "] finishes PHASE II.");
 	}
